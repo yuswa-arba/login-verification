@@ -1,0 +1,19 @@
+{
+  "name": "PHP/Login",
+  "description": "Login with send verification code",
+  "keywords": ["php","login"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=7.0.0",
+    "vlucas/phpdotenv": "^2.5",
+    "smsgatewayme/client": "^0.0.1",
+    "phpmailer/phpmailer": "^6.0"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/smsgatewayme/client-php.git"
+    }
+  ]
+}
